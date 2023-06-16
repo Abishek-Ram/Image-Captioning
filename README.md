@@ -9,3 +9,5 @@ VisionEncoderDecoderModel: This model combines an image encoder and a caption de
 ViTImageProcessor: The Vision Transformer (ViT) image processor is responsible for transforming the input image into a format compatible with the VisionEncoderDecoderModel. It performs necessary preprocessing steps such as resizing, normalization, and augmentation.
 
 AutoTokenizer: The AutoTokenizer module automatically selects the appropriate tokenizer based on the selected pre-trained model. It handles the tokenization of text data, converting it into numerical representations that can be processed by the model.
+# Acknowledgments
+The pre-trained models used in this project are provided by the Hugging Face Transformers library (https://huggingface.co/transformers/).
